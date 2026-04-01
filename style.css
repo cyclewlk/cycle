@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+dt {
+    font-weight: 400;
+}
+
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+
+.header .logo {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin: 22px 0;
+}
+
+.header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .nav {
+    float: left;
+    height: 100px;
+    margin-left: 120px;
+    line-height: 100px;
+
+}
+
+.header .nav ul li {
+    float: left;
+    margin-left: 25px;
+}
+
+.header .nav ul li a {
+    color: #333;
+    font-size: 16px;
+}
+
+.header .nav ul li a:hover {
+    color: #ff6700
+}
+
+.header .search1 {
+    float: right;
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    color: #bfbfbf;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.header .search2 {
+    float: right;
+    width: 60px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-right: 2px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.banner .w {
+    height: 460px;
+    background: url(images/image1.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.banner .w .leftnav {
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+    background: rgba(105, 101, 101, .6);
+}
+
+.leftnav ul li {
+    width: 174px;
+    height: 42px;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.leftnav ul li a {
+    color: #fff;
+}
+
+.leftnav ul li:hover {
+    background: #ff6700;
+}
+
+.leftnav ul li a span {
+    float: right;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.first {
+    height: 170px;
+    margin-top: 14px;
+}
+
+.first .homenav {
+    float: left;
+    width: 228px;
+    height: 164px;
+    padding: 3px;
+}
+
+.homenav ul li {
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    background-color: #665e57;
+    line-height: 82px;
+}
+
+.homenav ul li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.homenav ul li a:hover {
+    color: #fff;
+}
+
+.first a img {
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 14px;
+    margin-top: 3px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.second {
+    margin: 60px auto;
+}
+
+.second img {
+    height: 120px;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.content {
+    height: 614px;
+}
+
+.content .leftpicture {
+    float: left;
+    width: 234px;
+    height: 614px;
+}
+
+.content .leftpicture a {
+    display: block;
+}
+
+.content .leftpicture a img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .right {
+    float: right;
+    width: 978px;
+    height: 614px;
+}
+
+.content .right .box {
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+.cy {
+    margin-top: 14px;
+}
+
+.content .right .box a {
+    display: block;
+}
+
+.content .right .box img {
+    width: 160px;
+    height: 160px;
+    margin: 0 37px;
+}
+
+.content .right .box .title1 {
+    width: 214px;
+    height: 21px;
+    text-align: center;
+    margin: 0 10px 2px 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.content .right .box .title2 {
+    width: 214px;
+    height: 18px;
+    margin: 0 10px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.price {
+    width: 214px;
+    height: 21px;
+    text-align: center;
+    margin: 0 10px 14px 10px;
+}
+
+.price .p1 {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.price .p2 {
+    font-size: 14px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.footer {
+    background-color: #fff;
+    height: 312.5px;
+    margin-top: 50px;
+    padding: 40px 0;
+}
+
+.footer .w .extra {
+    float: left;
+    width: 160px;
+    height: 312.5px;
+}
+
+.footer .w dl {
+    float: left;
+    width: 160px;
+    height: 312.5px;
+}
+
+.footer .w dl a dd:hover {
+    color: #ff6700
+}
+
+.footer .w dl dt {
+    width: 160px;
+    height: 17.5px;
+    font-size: 14px;
+    margin: -1px 0 26px 0;
+    color: #424242;
+}
+
+.footer .w dl a dd {
+    width: 160px;
+    height: 18px;
+    color: #757575;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.phone {
+    float: right;
+}
+
+.phone .number {
+    width: 200px;
+    color: #ff6700;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.phone .text {
+    width: 200px;
+    color: #616161;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.phone .cycle {
+    width: 200px;
+    height: 30px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.info {
+    height: 205px;
+    padding: 30px 0;
+}
+
+.info img {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+}
+
+.info .sites {
+    float: left;
+}
+
+.info .s1 {
+    color: #757575;
+    font-size: 12px;
+}
+
+.info .s2 {
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.info .links {
+    float: left;
+    width: 1149px;
+    height: 28px;
+    padding-left: 77px;
+    margin: 4px 0px 15px 0;
+}
+
+.info .links .i1 {
+    float: left;
+    width: 85px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.info .links .i2 {
+    float: left;
+    width: 91px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.info .links .i3 {
+    float: left;
+    width: 85px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.info .links .i4 {
+    float: left;
+    width: 73px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.totop {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ff6700;
+    background-color: #fff;
+}
+
+.totop a img {
+    width: 30px;
+    height: 30px;
+    margin: 15px 15px;
+}
