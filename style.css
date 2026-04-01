@@ -24,6 +24,10 @@ body {
     background-color: #f5f5f5;
 }
 
+input {
+    outline: none;
+}
+
 /* ------------------------------------------------------------------------------------ */
 
 .header {
@@ -75,6 +79,10 @@ body {
     padding: 0 10px;
     font-size: 14px;
     margin-top: 25px;
+}
+
+.header .search1:focus {
+    border: 1px solid #ff6700;
 }
 
 .header .search2 {
