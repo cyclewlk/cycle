@@ -142,6 +142,7 @@ input {
 }
 
 .leftnav ul li a {
+    display: block;
     color: #fff;
 }
 
